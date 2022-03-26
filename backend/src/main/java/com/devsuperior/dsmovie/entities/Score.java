@@ -10,15 +10,11 @@ public class Score {
 	
 	@EmbeddedId
 	private ScorePK id = new ScorePK();
+	
 	private Double value;
 
 	public Score() {
 
-	}
-
-	public Score(ScorePK id, Double value) {
-		this.id = id;
-		this.value = value;
 	}
 
 	public void setMovie(Movie movie) {
